@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "Peticie.com crawler"
+version = "0.1.0"
+description = "Grab all the petition signers from a peticie.com petition."
+authors = ["Peter Morihladko <morihladko@gmail.com>"]
+license = "GPL-3.0"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+requests = "^2.31.0"
+click = "^8.1.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
